@@ -1,0 +1,146 @@
+header {
+    position: fixed;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+    width: 100%
+  }
+  
+  header::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+  #header-img {
+    width: 90px;
+    height: 40px;
+    float: left;
+    padding-top: 1.7em;
+  }
+  
+  nav ul{
+    float: right;
+    margin-right: 2em;
+  }
+  nav li{
+    display: inline;
+    padding: 1em;
+    display: inline-block;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
+  #about-us {
+    background-color: #444;
+    color: white;
+    Padding: 20em;
+    background-image: url(https://scontent.flos2-1.fna.fbcdn.net/v/t1.6435-9/78210395_1456510604515712_8818232826999603200_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=973b4a&_nc_ohc=7SY14-4b8JEAX8HaqdE&_nc_ht=scontent.flos2-1.fna&oh=cc8db171f8b8f334d4e1bc6eb01f0676&oe=61C9B9B6);
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  main {
+    font-family: 'Exo 2', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 0.01em 0.01em 0.01em 0.01em;
+  }
+  p {
+    padding: 0.01px 0.01px 0.01px 0.01px;
+    margin: 0.01px 0.01px 0.01px 0.01px;
+    text-align: center;
+  }
+  
+  #videos {
+    text-align: center;
+    padding: 3.5em;
+    }
+  
+  #video {
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 20em;
+    height: 14em;
+    margin: 10px;
+  }
+  #photos {
+     background-color:#ffffff;
+     padding: 3em;
+  }
+  #photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  input{
+    height: 2em;
+    border: none;
+    transition: 0.1s;
+  }
+  input:hover {
+      border-bottom: 2px solid black;
+  }
+  #form {
+    text-align: center;
+    padding: 1em;
+  }
+  
+  #submit {
+    border-radius: 5px;
+    padding: 0.5em;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #1707f5;
+    border: none;
+    color: white;
+  }
+  
+  html, body {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+    background-color: rgb(12, 53, 3);
+   
+  }
+  
+  footer {
+    background-color: #ff7300;
+    padding: 2em;
+    color: rgb(0, 0, 0);
+    padding: 1em 1em 1em 1em;
+    margin: 1em 1em 1em 1em;
+    box-shadow: 0 10px 20px;
+    font-size: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li {
+    display: inline;
+    padding: 2em;
+  }
+  
+  @media (max-width: 550px ){
+    h1 {
+      font-size: 1.25em;
+    }
+  }
