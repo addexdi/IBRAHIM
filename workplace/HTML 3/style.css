@@ -1,0 +1,194 @@
+body {
+  font-size: 25pt;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellowgreen;
+  height: 10vh;
+  width: 100vw;
+  color: white;
+}
+
+.navigation .right img {
+  padding: -8px;
+  margin: auto -8px;
+}
+
+.navigation .right .re {
+  color: aliceblue;
+}
+
+
+.navigation .right .drop {
+  color: aliceblue;
+}
+
+.navigation .right .search {
+  color: aliceblue;
+}
+
+.navigation .middle p {
+  font-size: 64px;
+}
+
+.main {
+
+  width: 96vw;
+  margin: auto;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main .right {
+  width: 48vw;
+  height: 20vh;
+
+}
+
+.main .left {
+  width: 48vw;
+  height: 20vh;
+
+}
+
+.main .left #number {
+  color:darkslategray;
+
+  font-size: 35px;
+}
+
+.main .left .money {
+  display: flex;
+}
+
+.main .left .money #money {
+  color: red;
+  font-size: 115px;
+  margin-top: .5vh;
+}
+
+.main .left .money span {
+  margin-top: 3.5vh;
+  font-size: 64px;
+  margin-left: 6px;
+}
+
+.main .left #expair {
+  margin-top: 1.1vh;
+  font-size: 37px;
+color:darkslategray;
+
+}
+
+.main .right .button1 {
+  height: 6.4vh;
+  width: 60%;
+  margin-left: 139px;
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: white;
+  border: 2px solid yellowgreen;
+  font-size: 50px;
+  color: yellowgreen;
+}
+
+.main .right .button {
+  height: 6.4vh;
+  width: 60%;
+  margin-left: 139px;
+
+  margin-top: 30px;
+  border-radius: 50px;
+  background-color: white;
+  border: 2px solid yellowgreen;
+  font-size: 50px;
+  color: yellowgreen;
+}
+
+.main1 {
+  display: flex;
+  justify-content: space-between;
+  width: 96vw;
+  margin: auto;
+  background-color: whitesmoke;
+}
+
+.main1 .first {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 30vw;
+  height: 30vh;
+  border-radius: 35px;
+  background-color: white;
+  border: 3px double cadetblue;
+
+}
+.main1 .first #logo{ 
+font-size: 50px;
+margin-top: 3vh;
+
+}
+
+.main1 .first .mb{
+display: flex;
+}
+.main1 .first .mb #mb{
+font-size: 70px;
+color: yellowgreen;
+
+
+
+
+}
+
+.main1 .first .mb span{
+margin-top: 2vh;
+font-size: 35px;
+}
+
+.main1 .first #progress {
+color: darkred;
+
+
+}
+.main1 .first #remaning {
+color:darkslategray;
+}
+
+.main1 .second {
+  width: 30vw;
+  height: 30vh;
+  border-radius: 35px;
+  background-color: white;
+  border: 3px double cadetblue;
+
+}
+
+.main1 .third {
+  width: 30vw;
+  height: 30vh;
+  border-radius: 35px;
+  background-color: white;
+  border: 3px double cadetblue;
+
+}
+
+
+.main2{
+  width: 96vw;
+  height: 25vh;
+  margin:2vh auto;
+  background-image: url(shaid.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
