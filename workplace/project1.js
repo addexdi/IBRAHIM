@@ -18,4 +18,3 @@ setting_item.onclick = () => {
 setting_btn.onclick = () => {
     menu_bar.style.marginleft = "0px";
     setting_drop.style.display = "none";
-};
