@@ -1,0 +1,23 @@
+00:00:04.686357 VirtualBox GUI VM Selector Window 6.1.14 r140239 win.amd64 (Sep  4 2020 08:29:36) release log
+00:00:04.686363 Log opened 2021-12-01T05:08:25.802189400Z
+00:00:04.686365 Build Type: release
+00:00:04.686372 OS Product: Windows 10
+00:00:04.686374 OS Release: 10.0.19043
+00:00:04.686376 OS Service Pack: 
+00:00:04.722211 DMI Product Name: HP Compaq dx2450 Microtower PC
+00:00:04.735853 DMI Product Version:  
+00:00:04.735894 Firmware type: BIOS
+00:00:04.735907 Host RAM: 3966MB (3.8GB) total, 2199MB (2.1GB) available
+00:00:04.735916 Executable: F:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:04.735918 Process ID: 3864
+00:00:04.735920 Package type: WINDOWS_64BITS_GENERIC
+00:00:04.736279 Qt version: 5.6.2
+00:00:04.846743 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:06.426851 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:12.554080 GUI: UIMediumEnumerator: Medium with key={{dfb27613-4ee9-4ca0-9697-9e80a83b14d2}} created
+00:03:13.224649 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:36.395294 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:36.490309 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:38.041797 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:04:52.488240 ERROR [COM]: aRC=E_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:11:18.754180 GUI: UICommon::sltHandleCommitDataRequest: Emergency shutdown initiated

@@ -1,0 +1,38 @@
+{
+	"name": "react-pack",
+	"displayName": "React Pack",
+	"author": "lauren",
+	"publisher": "lauren",
+	"icon": "img/logo.png",
+	"description": "Best extension packs for React development and more.",
+	"license": "MIT",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "vsce package"
+	},
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"keywords": [
+		"extension packs",
+		"React native",
+		"react Snippets",
+		"GitLens",
+		"ESlint"
+	],
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"msjsdiag.vscode-react-native",
+		"dsznajder.es7-react-js-snippets",
+		"eamodio.gitlens",
+		"dbaeumer.vscode-eslint"
+	],
+	"__metadata": {
+		"id": "d0b6374e-6c0c-436e-bda2-09d16a76024e",
+		"publisherId": "6f18c8b3-b9d0-46b0-8dd5-38ac14ab4f14",
+		"publisherDisplayName": "lauren",
+		"installedTimestamp": 1639042663482
+	}
+}

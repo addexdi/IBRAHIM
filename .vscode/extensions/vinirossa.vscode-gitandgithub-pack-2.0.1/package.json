@@ -1,0 +1,46 @@
+{
+	"name": "vscode-gitandgithub-pack",
+	"license": "MIT",
+	"displayName": "Git & GitHub Extension Pack",
+	"description": "A collection of VSCode essential extensions to work with Git and GitHub.",
+	"version": "2.0.1",
+	"publisher": "vinirossa",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"icon": "logo.png",
+	"keywords": [
+		"git",
+		"github",
+		"gitlab",
+		"gitlens",
+		"version"
+	],
+	"repository": {
+		"url": "https://github.com/vinirossa/vscode-gitandgithub-pack"
+	},
+	"homepage": "https://github.com/vinirossa/vscode-gitandgithub-pack",
+	"bugs": {
+		"url": "https://github.com/vinirossa/vscode-gitandgithub-pack/issues"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"eamodio.gitlens",
+		"donjayamanne.githistory",
+		"mhutchie.git-graph",
+		"github.codespaces",
+		"howardzuo.vscode-git-tags",
+		"github.vscode-pull-request-github",
+		"ziyasal.vscode-open-in-github",
+		"adam-bender.commit-message-editor",
+		"github.remotehub"
+	],
+	"__metadata": {
+		"id": "dc1a111a-a14f-43c0-b414-1bdfbdeb9a7c",
+		"publisherId": "caf21fea-10e1-4291-be22-92d83d7c64c0",
+		"publisherDisplayName": "Vinícius Pereira",
+		"installedTimestamp": 1639042502773
+	}
+}

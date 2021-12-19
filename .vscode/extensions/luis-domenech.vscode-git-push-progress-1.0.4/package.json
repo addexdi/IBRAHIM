@@ -1,0 +1,88 @@
+{
+	"name": "vscode-git-push-progress",
+	"displayName": "Git Push Progress",
+	"description": "Extra git menu option plus command to push all commits and output the progress to output console",
+	"version": "1.0.4",
+	"publisher": "luis-domenech",
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"c": "tsc ./tests/runTest.js ./out/t.js",
+		"test": "node ./out/tests/runTest.js",
+		"deploy": "vsce publish",
+		"watch": "tsc -p -w ./"
+	},
+	"categories": [
+		"Debuggers"
+	],
+	"icon": "images/git-logo.png",
+	"bugs": {
+		"url": "https://github.com/Luis-Domenech/vscode-git-push-progress/issues",
+		"email": "luisfabiandomenech@gmail.com"
+	},
+	"homepage": "https://github.com/Luis-Domenech/vscode-git-push-progress/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Luis-Domenech/vscode-git-push-progress.git"
+	},
+	"activationEvents": [
+		"*",
+		"onFileSystem:git"
+	],
+	"license": "GPL-3.0",
+	"main": "./out/src",
+	"contributes": {
+		"menus": {
+			"scm/title": [
+				{
+					"command": "git.pushProgress",
+					"title": "Push Progress",
+					"group": "1_header@2",
+					"when": "scmProvider == git"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "git.pushProgress",
+				"title": "Push Progress",
+				"when": "config.git.enabled && !git.missing && gitOpenRepositoryCount != 0"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "git.pushProgress",
+				"key": "ctrl+alt+enter",
+				"mac": "cmd+alt+enter",
+				"when": "sideBarFocus && activeViewlet == 'workbench.view.scm' && config.git.enabled && !git.missing && gitOpenRepositoryCount != 0"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/lodash": "^4.14.157",
+		"@types/mocha": "^8.0.3",
+		"@types/node": "^14.0.24",
+		"@types/rimraf": "^3.0.0",
+		"@types/vscode": "^1.47.0",
+		"glob": "^7.1.6",
+		"http-proxy-agent": "^4.0.1",
+		"https-proxy-agent": "^5.0.0",
+		"mocha": "^8.1.3",
+		"rimraf": "^3.0.2",
+		"typescript": "^3.9.7",
+		"vsce": "^1.81.1"
+	},
+	"dependencies": {
+		"lodash": "^4.17.19"
+	},
+	"__metadata": {
+		"id": "329a3e6f-e48a-4132-84c7-0b99f17b1afb",
+		"publisherId": "22752d0a-3210-4897-873e-c3fcd33cd82b",
+		"publisherDisplayName": "Luis Domenech",
+		"installedTimestamp": 1639914596606
+	}
+}
