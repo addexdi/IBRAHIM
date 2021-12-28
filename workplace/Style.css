@@ -1,0 +1,38 @@
+p, li {
+    font-size: 18px;
+}
+#header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    margin: 0;
+}
+body {
+    font-family: 'georgia';
+    background-color: #EEE;
+    margin: 0;
+}
+.review {
+    background-color: white;
+    width: 650px;
+    display: none;
+    padding: 50px;
+    margin: 0 auto;
+}
+.active {
+    display: block;
+}
+img {
+    width: 650px;
+}
+button {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: #28A745;
+    padding: 10px 200px;
+    border-radius: 50px;
+    display: block;
+    margin: 40px auto;
+}
