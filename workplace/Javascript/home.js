@@ -52,13 +52,14 @@ console.log("Hello");
        Return: "Hello Adam"
        */
 
-       function greeting(yourName) {
+      /* function greeting(yourName) {
            var result = 'Hello' + ' ' + yourName;  // String Concatenation
            console.log(result);
        }
-       
+
        var name = prompt('What is your name');
        greeting(name);
+       */
 
        // How do arguments work in functions?
        // How do we add two numbers together in a function?
@@ -70,5 +71,17 @@ console.log("Hello");
 
        sumNumbers(10, 10);
 
+       /* While loops
+         var num = 0;
+          
+         while (num < 100) {
+             num += 2;
+             console.log(num);
+         }
+         
+         */
 
-
+        // For loops
+         for (let num = 0; num <= 100; num++) {
+             console.log(num);
+         } 
