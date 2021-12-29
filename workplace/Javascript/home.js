@@ -85,3 +85,13 @@ console.log("Hello");
          for (let num = 0; num <= 100; num++) {
              console.log(num);
          } 
+
+         // Data types
+
+         let yourName = "Adam"; // String
+         let yourAge = 21; // Number
+         let name = {first: "Adam", last: "Ibrahim"}; // Object
+         let truth = true; // Boolean
+         let grocerires = ["apple", "banana", "orandes"]; // Array
+         let random; // undefined
+         let nothing = null; // Value null
