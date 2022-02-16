@@ -1,8 +1,12 @@
 [user]
-	name = Adam Ibrahim
+	name = [Adam Ibrahim]
 	email = onelordad@gmail.com
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[email]
+	name = [onelordad@gmail.com]
+[color]
+	ui = auto
